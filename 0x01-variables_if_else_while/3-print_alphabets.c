@@ -7,18 +7,12 @@
 */
 int main(void)
 {
-	int n;
-	int m;
+	int i;
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	while (n <= 122)
+	for (i = 0; i < 52; i++)
 	{
-		putchar(n);
-		n++;
-	}
-	while (m <= 90)
-	{
-		putchar(m);
-		m++;
+		putchar(alph[i]);
 	}
 	putchar('\n');
 	return (0);

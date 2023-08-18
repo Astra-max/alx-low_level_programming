@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * @x: Test value
- * Return: 1 for true and viceversa
- * _isdigit - Returns numbers
+ * _isdigit - Prints 1 if true
+ * @c: Value printed
+ * Return: Always 0
  */
-int _isdigit(int x)
+int _isdigit(int c)
 {
-	if (x >= 48 && x <= 59)
+	if (c >= 48 && c <= 59)
 	{
 		return (1);
 	}

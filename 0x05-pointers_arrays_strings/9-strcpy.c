@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcpy - copies value of pointer to another pointer
+ * _strcpy - Copies value of pointer to another pointer
  * @dest: For destination
  * @src: Source
+ * Return: Destination of newly assigned pointer
  *
  */
 

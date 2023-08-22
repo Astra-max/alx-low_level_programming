@@ -4,7 +4,7 @@
 
 /**
  * puts_half - prints last string vals
- * @s: tested string
+ * @str: tested string
  *
  */
 
@@ -15,5 +15,5 @@ void puts_half(char *str)
 	len = strlen(str);
 	j = len / 2;
 
-	printf("%s", str + j);
+	printf("%s\n", str + j);
 }

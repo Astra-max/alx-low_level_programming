@@ -1,24 +1,25 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * print_number - Prints integers
- * @n: Testee integers
- * Return: 0
- *
+ * @n: Inte tested
  */
 
 void print_number(int n)
 {
-	int n;
-	int a[5];
-	int *p;
+	unsigned int n1;
 
-	a[2] = 1024;
-	p = &n;
-	*(p + 5) = 98;
+	n1 = n;
 
-	printf("a[2] = %d\n", a[2]);
+	if (n < 0)
+	{
+		_putchar('_');
+		n1 = -n;
+	}
+	if (n1 / 10 != 0)
+	{
+		print_number(n1 / 10);
+	}
+	_putchar((n1 % 10) + '0');
 
-	return (0);
 }

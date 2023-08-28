@@ -3,6 +3,7 @@
 /**
  * _memset - Fills the memory
  * @s: char tested
+ * @b: interger
  * @n: unsgned integer
  * Return: s
  */

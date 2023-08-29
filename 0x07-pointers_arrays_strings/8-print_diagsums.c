@@ -5,6 +5,7 @@
  * @: integer value
  * @size: integer value
  * Return: 0
+ * @a: an integer
  */
 
 void print_diagsums(int *a, int size)
@@ -20,7 +21,7 @@ void print_diagsums(int *a, int size)
 	}
 	for (y = size - 1; y >= 0; y--)
 	{
-		sum2 += a[y * size + (size -y - 1)];
+		sum2 += a[y * size + (size - y - 1)];
 	}
 	printf("%d, %d\n", sum1, sum2);
 }

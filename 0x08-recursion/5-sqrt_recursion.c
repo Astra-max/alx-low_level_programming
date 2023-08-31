@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * sqrt_a - returns natural sqrt of numbers
  * @a: an int
@@ -21,7 +22,7 @@ return (sqrt_a(a, b + 1));
 
 /**
  * _sqrt_recursion - retirns sqrt of a number
- * @m: number tested
+ * @n: number tested
  * Return: sqrt_a()
  */
 

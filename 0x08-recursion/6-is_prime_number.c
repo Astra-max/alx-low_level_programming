@@ -14,7 +14,7 @@ if (a <= 1 || (a != b && a % b == 0))
 {
 return (0);
 }
-else if (a ==b)
+else if (a == b)
 {
 return (1);
 }

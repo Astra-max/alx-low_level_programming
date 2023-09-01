@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * _strstr - Entry point
+ * @haystack: char
+ * @needle: char
  * Return: 0
  */
 
-int main(void)
+char *_strstr(char *haystack, char *needle)
 {
 printf("Hello there.\n");
 return (0);

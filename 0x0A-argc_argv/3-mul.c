@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * main - multiplies arg passed
  * Return: -1 if args < 1
@@ -14,7 +14,7 @@ int multply, iterator;
 
 for (iterator = 0; iterator < argc; iterator++)
 {
-if (argc <= 1)
+if (argc < 2)
 {
 printf("Error\n");
 return (1);

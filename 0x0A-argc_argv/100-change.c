@@ -9,11 +9,13 @@
  * Return: 1
  */
 
-int coins[] = {25, 10, 5, 2, 1};
 
 int main(int argc, char *argv[])
 {
 int i, cents, coin_count, count;
+
+int coins[] = {25, 10, 5, 2, 1};
+
 if (argc != 2)
 {
 printf("Error\n");

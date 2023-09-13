@@ -1,6 +1,6 @@
 #ifndef CALC_H
 #define CALC_H
-int add( int a, int b);
+int add(int a, int b);
 
 /**
  * struct op - name of struct

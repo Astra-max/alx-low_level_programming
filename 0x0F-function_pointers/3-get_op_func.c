@@ -5,8 +5,8 @@
 /**
  * get_op_func - operators to be used
  * @s: operator
- * Return: op[i] 
-*/
+ * Return: i
+ */
 
 int (*get_op_func(char *s))(int, int)
 {

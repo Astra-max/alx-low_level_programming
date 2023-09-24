@@ -22,7 +22,7 @@ new = malloc(sizeof(list_t));
 if (!new)
 return (NULL);
 new->str = strdup(str);
-new->next = new;
+new->next = len;
 new->next = (*head);
 (*head) = new;
 return (*head);

@@ -5,18 +5,18 @@
 /**
  * free_list - Deletes all nodes
  * Return: 0
+ * @head: first node
 */
 
 void free_list(list_t *head)
 {
 
-list_t *temp;
+list_t *current_node;
 
-while (head)
+while ((current_node = head) != NULL)
 {
-temp = head->next;
-free(head->str);
-free(head);
-head = temp;
+head = head->next;
+free(current_node->str);
+free(current_node);
 }
 }

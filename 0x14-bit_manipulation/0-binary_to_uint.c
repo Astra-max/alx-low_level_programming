@@ -14,7 +14,7 @@ unsigned int val = 0;
 if (!b)
 return (0);
 
-for (i = 0; b[ier]; i++)
+for (i = 0; b[iter]; i++)
 {
 if (b[iter] < '0' || b[iter] > '1')
 return (0);

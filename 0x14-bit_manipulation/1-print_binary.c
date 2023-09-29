@@ -15,7 +15,7 @@ for (iter = 63; iter >= 0; iter--)
 {
 current = n >> iter;
 
-if (current & iter)
+if (current & 1)
 {
 _putchar('1');
 count++;

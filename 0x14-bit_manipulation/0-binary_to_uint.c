@@ -14,11 +14,11 @@ unsigned int val = 0;
 if (!b)
 return (0);
 
-for (i = 0; b[i]; i++)
+for (i = 0; b[ier]; i++)
 {
-if (b[i] < '0' || b[i] > '1')
+if (b[iter] < '0' || b[iter] > '1')
 return (0);
-val = 2 * val + (b[i] - '0');
+val = 2 * val + (b[iter] - '0');
 }
 return (val);
 }
